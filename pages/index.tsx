@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://github.com/yunggenius/yinka.lol"
             className={styles.card}
           >
             <h2>github &rarr;</h2>
