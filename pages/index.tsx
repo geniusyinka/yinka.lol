@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           target="_blank" rel="noopener noreferrer"
           className={styles.card}>
             <h2>youtube &rarr;</h2>
-            <p>i be creative </p>
+            <p>i be creatin </p>
           </a>
 
           <a
