@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          get started by following me on twitter  <u><a href="http://twitter.com/geniusyinka" target="_blank" rel="noopener noreferrer">🚀 yinka</a></u>
+          twitter:  <a href="http://twitter.com/geniusyinka" target="_blank" rel="noopener noreferrer">🚀 yinka</a>
         </p>
 
         <div className="flex justify-center items-center">
