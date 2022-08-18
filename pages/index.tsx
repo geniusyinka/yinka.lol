@@ -18,22 +18,22 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          twitter:  <a href="http://twitter.com/geniusyinka" target="_blank" rel="noopener noreferrer">🚀 yinka</a>
+          twitter:  <a className=' font-semibold ' href="http://twitter.com/geniusyinka" target="_blank" rel="noopener noreferrer"> @geniusyinka</a>
         </p>
 
-        <div className="flex justify-center items-center">
+        <div className=" box flex justify-center items-center">
           <a href="https://mirror.xyz/geniusyinka.eth" 
           target="_blank" rel="noopener noreferrer"
           className={styles.card}>
-            <h2>mirror &rarr;</h2>
-            <p>i be writin </p>
+            <h2>thoughts &rarr;</h2>
+            {/* <p>i be writin </p> */}
           </a>
 
           <a href="https://youtube.com/wilsonoshidipe" 
           target="_blank" rel="noopener noreferrer"
           className={styles.card}>
             <h2>youtube &rarr;</h2>
-            <p>i be creatin </p>
+            {/* <p>i be creatin </p> */}
           </a>
 
           <a
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
             className={styles.card}
           >
             <h2>github &rarr;</h2>
-            <p>i be codin </p>
+            {/* <p>i be codin </p> */}
           </a>
         </div>
       </main>
