@@ -13,9 +13,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome
-        </h1>
+        <p className={styles.title}>
+          gm
+        </p>
 
         <p className={styles.description}>
           twitter:  <a className=' font-semibold ' href="http://twitter.com/geniusyinka" target="_blank" rel="noopener noreferrer"> @geniusyinka</a>
