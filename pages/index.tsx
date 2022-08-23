@@ -2,8 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
 
 const Home: NextPage = () => {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -22,16 +25,23 @@ const Home: NextPage = () => {
         </p>
 
         <div className=" box flex justify-center items-center">
-          <a href="https://mirror.xyz/geniusyinka.eth" 
-          target="_blank" rel="noopener noreferrer"
-          className={styles.card}>
+          {/* <a href="/thoughts"
+            rel="noopener noreferrer"
+            className={styles.card}>
             <h2>thoughts &rarr;</h2>
-            {/* <p>i be writin </p> */}
-          </a>
+          </a> */}
 
-          <a href="https://youtube.com/wilsonoshidipe" 
-          target="_blank" rel="noopener noreferrer"
-          className={styles.card}>
+          <Link href='/thoughts'>
+            <a
+              rel="noopener noreferrer"
+              className={styles.card}>
+              <h2>thoughts &rarr;</h2>
+            </a>
+          </Link>
+
+          <a href="https://youtube.com/wilsonoshidipe"
+            target="_blank" rel="noopener noreferrer"
+            className={styles.card}>
             <h2>youtube &rarr;</h2>
             {/* <p>i be creatin </p> */}
           </a>
