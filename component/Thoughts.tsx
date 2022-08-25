@@ -13,11 +13,12 @@ const Thoughts: NextPage = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <a href="/">&larr; back</a>
-        {blogs.map((blog, i) => (
-          <div className='links flex'>
-            <a className='links text-center' key={i} href={blog.url} target="_blank">{blog.title}</a>
-          </div>
-        ))}
+        <div className='links'>
+          {blogs.map((blog, i) => (
+
+            <a className='urls' key={i} href={blog.url} target="_blank">{blog.title} &rarr;</a>
+          ))}
+        </div>
       </main>
     </div>
   )
