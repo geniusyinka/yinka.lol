@@ -1,12 +1,41 @@
+// import type { NextPage } from 'next'
+// import Thoughts from '../component/Thoughts';
+// import styles from '../styles/Home.module.css'
+
+
+// const thoughts: NextPage = () => {
+
+//   return (
+//     <Thoughts/>
+//   )
+// }
+
+// export default Thoughts;
+
+
 import type { NextPage } from 'next'
-import Thoughts from '../component/Thoughts';
 import styles from '../styles/Home.module.css'
+import thoughts from '../pages/api/thoughts.json'
+import { useState } from 'react'
 
 
-const thoughts: NextPage = () => {
+
+const Thoughts: NextPage = () => {
+
+  const [blogs, setBlogs] = useState(thoughts.links)
 
   return (
-    <Thoughts/>
+    <div className={styles.container}>
+      <main className={styles.main}>
+        <a href="/">&larr; back</a>
+        <div className='links'>
+          {blogs.map((blog, i) => (
+
+            <a className='urls' key={i} href={blog.url} target="_blank">{blog.title} &rarr;</a>
+          ))}
+        </div>
+      </main>
+    </div>
   )
 }
 
