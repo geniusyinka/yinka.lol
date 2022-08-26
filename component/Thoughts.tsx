@@ -15,7 +15,7 @@ const Thoughts: NextPage = () => {
       <main className={styles.main}>
         <a href="/">&larr; back</a>
         <div className='links'>
-        <p className=' text-left'>tech stufs</p>
+        <p className=' text-left'>tech stuff</p>
           {tech.map((tech, i) => (
             <a className='urls' key={i} href={tech.url} target="_blank">{tech.title} &rarr;</a>
           ))}
