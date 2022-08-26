@@ -1,28 +1,35 @@
 {
-  "links": [
-    {
-      "title": "How To Send Ether From One Smart Contract To Another Contract",
-      "url": "https://yunggenius.hashnode.dev/how-to-send-ether-from-one-smart-contract-to-another-contract"
-    },
-    {
-      "title": "How To Build A YouTube MP3 Downloader With ytdl-core",
-      "url": "https://yunggenius.hashnode.dev/how-to-build-a-youtube-mp3-downloader-with-ytdl-core"
-    },
-    {
-      "title": "Using The .reduce() Method To Find Min and Max Values Of An Array In JavaScript",
-      "url": "https://yunggenius.hashnode.dev/using-the-reduce-method-to-find-min-and-max-values-of-an-array-in-javascript"
-    },
-    {
-      "title": "How to Fix 419 Postman Error Laravel API Request",
-      "url": "https://yunggenius.hashnode.dev/how-to-fix-419-postman-error-laravel-api-request"
-    },
-    {
-      "title": "Moving From 0 To Head Of Community In 7 Months",
-      "url": "https://mirror.xyz/geniusyinka.eth/hmjoISQf5CySTi4nOZeduhEfm-n46SOWklyQ9aRuIHk"
-    },
-    {
-      "title": "How To Mint Your Own 24 x 24 (HIGH RES) Cryptopunk Off-Chain",
-      "url": "https://medium.com/@yinkaaaaaa/how-to-mint-your-own-24-x-24-high-res-crypto-punk-off-chain-c6ed6b93af65"
-    }
-  ]
+  "tech": {
+    "links": [
+      {
+        "title": "How To Send Ether From One Smart Contract To Another Contract",
+        "url": "https://yunggenius.hashnode.dev/how-to-send-ether-from-one-smart-contract-to-another-contract"
+      },
+      {
+        "title": "How To Build A YouTube MP3 Downloader With ytdl-core",
+        "url": "https://yunggenius.hashnode.dev/how-to-build-a-youtube-mp3-downloader-with-ytdl-core"
+      },
+      {
+        "title": "Using The .reduce() Method To Find Min and Max Values Of An Array In JavaScript",
+        "url": "https://yunggenius.hashnode.dev/using-the-reduce-method-to-find-min-and-max-values-of-an-array-in-javascript"
+      },
+      {
+        "title": "How to Fix 419 Postman Error Laravel API Request",
+        "url": "https://yunggenius.hashnode.dev/how-to-fix-419-postman-error-laravel-api-request"
+      },
+      {
+        "title": "How To Mint Your Own 24 x 24 (HIGH RES) Cryptopunk Off-Chain",
+        "url": "https://medium.com/@yinkaaaaaa/how-to-mint-your-own-24-x-24-high-res-crypto-punk-off-chain-c6ed6b93af65"
+      }
+    ]
+  },
+
+  "community": {
+    "links": [
+      {
+        "title": "Moving From 0 To Head Of Community In 7 Months",
+        "url": "https://mirror.xyz/geniusyinka.eth/hmjoISQf5CySTi4nOZeduhEfm-n46SOWklyQ9aRuIHk"
+      }
+    ]
+  }
 }
