@@ -7,16 +7,26 @@ import { useState } from 'react'
 
 const Thoughts: NextPage = () => {
 
-  const [blogs, setBlogs] = useState(thoughts.links)
+  const [tech, setTech] = useState(thoughts.tech.links)
+  const [community, setComm] = useState(thoughts.community.links)
 
   return (
     <div className={styles.container}>
       <main className={styles.main}>
         <a href="/">&larr; back</a>
         <div className='links'>
-          {blogs.map((blog, i) => (
+        <p className=' text-left'>tech stufs</p>
+          {tech.map((tech, i) => (
+            <a className='urls' key={i} href={tech.url} target="_blank">{tech.title} &rarr;</a>
+          ))}
 
-            <a className='urls' key={i} href={blog.url} target="_blank">{blog.title} &rarr;</a>
+          <br />
+        <br />
+        <br />
+
+        <p className=' text-left'>community stuff</p>
+          {community.map((community, i) => (
+            <a className='urls' key={i} href={community.url} target="_blank">{community.title} &rarr;</a>
           ))}
         </div>
       </main>
