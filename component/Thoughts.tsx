@@ -15,7 +15,7 @@ const Thoughts: NextPage = () => {
       <main className={styles.main}>
         <a href="/">&larr; back</a>
         <div className='links'>
-        <p className=' text-left'>tech stuff</p>
+        <p className=' text-black text-left'>tech</p>
           {tech.map((tech, i) => (
             <a className='urls' key={i} href={tech.url} target="_blank">{tech.title} &rarr;</a>
           ))}
@@ -24,7 +24,7 @@ const Thoughts: NextPage = () => {
         <br />
         <br />
 
-        <p className=' text-left'>community stuff</p>
+        <p className=' text-black text-left'>community</p>
           {community.map((community, i) => (
             <a className='urls' key={i} href={community.url} target="_blank">{community.title} &rarr;</a>
           ))}
