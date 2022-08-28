@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import twitter from '../public/twitter.svg'
 
 
 
@@ -20,6 +21,8 @@ const Home: NextPage = () => {
         <p className={styles.title}>
           gm
         </p>
+
+        <img src={twitter} alt="" />
 
         <p className={styles.description}>
           twitter:  <a className=' font-semibold '
