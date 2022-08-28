@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import twitter from '../public/twitter.svg'
+
 
 
 const Home: NextPage = () => {
@@ -20,8 +22,12 @@ const Home: NextPage = () => {
           gm
         </p>
 
+        <img src={twitter} alt="" />
+
         <p className={styles.description}>
-          twitter:  <a className=' font-semibold ' href="http://twitter.com/geniusyinka" target="_blank" rel="noopener noreferrer"> @geniusyinka</a>
+          twitter:  <a className=' font-semibold '
+            href="http://twitter.com/geniusyinka"
+            target="_blank" rel="noopener noreferrer"> @geniusyinka</a>
         </p>
 
         <div className=" box flex justify-center items-center">
@@ -43,7 +49,6 @@ const Home: NextPage = () => {
             target="_blank" rel="noopener noreferrer"
             className={styles.card}>
             <h2>youtube &rarr;</h2>
-            {/* <p>i be creatin </p> */}
           </a>
 
           <a
@@ -51,7 +56,6 @@ const Home: NextPage = () => {
             className={styles.card}
           >
             <h2>github &rarr;</h2>
-            {/* <p>i be codin </p> */}
           </a>
         </div>
       </main>
