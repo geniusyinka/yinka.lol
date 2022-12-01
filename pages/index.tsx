@@ -22,7 +22,8 @@ const Home: NextPage = () => {
           gm
         </p>
 
-        <img src={twitter} alt="" />
+        Crypto Native/Developer Relations Engineer. Curious about Zero Knowledge Proofs. So much so that i made a ton of videos about it. 
+        Check them out <a href="https://www.youtube.com/@geniusyinka">Here</a>.
 
         <p className={styles.description}>
           twitter:  <a className=' font-semibold '
