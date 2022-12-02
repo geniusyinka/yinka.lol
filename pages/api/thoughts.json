@@ -2,6 +2,10 @@
   "tech": {
     "links": [
       {
+        "title": "How To Deploy An Existing Smart Contract To Scroll.io Testnet",
+        "url": "https://yunggenius.hashnode.dev/how-to-deploy-an-existing-smart-contract-to-scrollio-testnet"
+      },
+      {
         "title": "How To Send Ether From One Smart Contract To Another Contract",
         "url": "https://yunggenius.hashnode.dev/how-to-send-ether-from-one-smart-contract-to-another-contract"
       },

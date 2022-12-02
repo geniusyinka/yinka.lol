@@ -21,11 +21,14 @@ const Home: NextPage = () => {
         <p className={styles.title}>
           gm
         </p>
+        <br />
 
-        <img src={twitter} alt="" />
+        <p>Crypto Native/Developer Relations Engineer. <br />
+          Curious about Zero Knowledge Proofs <a href="https://www.youtube.com/@geniusyinka"><b>Here</b></a>.
+        </p>
 
         <p className={styles.description}>
-          twitter:  <a className=' font-semibold '
+          twttr:  <a className=' font-semibold '
             href="http://twitter.com/geniusyinka"
             target="_blank" rel="noopener noreferrer"> @geniusyinka</a>
         </p>
