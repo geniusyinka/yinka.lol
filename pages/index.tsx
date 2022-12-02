@@ -18,9 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.title}>
-          gm
-        </p>
+      <iframe src="https://giphy.com/embed/jKyrErkyJO538B4PwZ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gm-mental-barf-mentalbarf-jKyrErkyJO538B4PwZ">via GIPHY</a></p>
         <br />
 
         <p>Crypto Native/Developer Relations Engineer. <br />
