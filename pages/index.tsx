@@ -21,12 +21,14 @@ const Home: NextPage = () => {
         <p className={styles.title}>
           gm
         </p>
+        <br />
 
-        Crypto Native/Developer Relations Engineer. Curious about Zero Knowledge Proofs. So much so that i made a ton of videos about it. 
-        Check them out <a href="https://www.youtube.com/@geniusyinka">Here</a>.
+        <p>Crypto Native/Developer Relations Engineer. <br />
+          Curious about Zero Knowledge Proofs <a href="https://www.youtube.com/@geniusyinka"><b>Here</b></a>.
+        </p>
 
         <p className={styles.description}>
-          twitter:  <a className=' font-semibold '
+          twttr:  <a className=' font-semibold '
             href="http://twitter.com/geniusyinka"
             target="_blank" rel="noopener noreferrer"> @geniusyinka</a>
         </p>
