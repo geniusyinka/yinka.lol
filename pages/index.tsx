@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <p>
           I am a Crypto Native/Developer Relations Engineer. <br />
           Currently building the dev
-          community{" "}
+          community
           <a
             href="https://twitter.com/thedapplist"
             target="_blank"
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
           
         
           <br />I am also quite curious about Zero Knowledge Proofs & AI. I talk
-          about them here:{" "}
+          about them here:
           <a href="https://www.youtube.com/@geniusyinka" >
             <b>Here</b>
           </a>
