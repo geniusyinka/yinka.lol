@@ -29,9 +29,8 @@ const Home: NextPage = () => {
         </li>
       </ul> */}
         <p>
-          I am a Crypto Native/Developer Relations Engineer. <br />
-          Currently building the dev
-          community
+          I'm a Crypto Native Developer Relations Engineer. <br />
+          Building the dev community 
           <a
             href="https://twitter.com/thedapplist"
             target="_blank"
@@ -39,7 +38,9 @@ const Home: NextPage = () => {
             className='urls'
             
             >
-            <b>@thedapplist.</b></a> Carrying out Dev Rel work <a
+            <b> @thedapplist,</b></a> 
+            <br />
+            Dev Rel work <a
               href="https://twitter.com/developer_DAO"
               target="_blank"
               rel="noopener noreferrer"
@@ -47,15 +48,12 @@ const Home: NextPage = () => {
               > <b>@Developer DAO</b></a>.
           
         
-          <br />I am also quite curious about Zero Knowledge Proofs & AI. I talk
+          <br />I'm also quite curious about Zero Knowledge Proofs & AI. I talk
           about them here:
           <a href="https://www.youtube.com/@geniusyinka" >
-            <b>Here</b>
+            <b> Here.</b>
           </a>
-          .
         </p>
-        <br />
-        <br />
 
         <div className=" box links items-start">
           {/* <a href="/thoughts"
