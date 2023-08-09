@@ -14,80 +14,70 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='links inline'>
-
-      <main className={styles.main}>
-        <h1 className=" text-5xl">Hi, I'm Yinka</h1>
-        <br />
-        <p>I enjoy building tools, and simplifying technical materials. </p>
-        <br />
-        {/* <h1 className=" text-3xl">Work</h1>
-        <br />
-        <ul>
-        <li>
-        Dev Rel 
-        </li>
-      </ul> */}
-        <p>
-          I'm a Crypto Native Developer Relations Engineer. <br />
-          Building the dev community 
-          <a
-            href="https://twitter.com/thedapplist"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='urls'
-            
+      <div className="links inline">
+        <main className={styles.main}>
+          <h1 className=" text-5xl">Hi, I'm Yinka</h1>
+          <br />
+          <p>I enjoy building tools, and simplifying technical materials. </p>
+          <br />
+          <p>
+            I'm a Developer Relations Engineer. <br />
+            Currently building the dev community
+            <a
+              href="https://twitter.com/thedapplist"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="urls"
             >
-            <b> @thedapplist,</b></a> 
+              <b> @thedapplist,</b>
+            </a>
             <br />
-            Dev Rel work <a
+            Dev Rel work
+            <a
               href="https://twitter.com/developer_DAO"
               target="_blank"
               rel="noopener noreferrer"
-              className='urls'
-              > <b>@Developer DAO</b></a>.
-          
-        
-          <br />I'm also quite curious about Zero Knowledge Proofs & AI. I talk
-          about them here:
-          <a href="https://www.youtube.com/@geniusyinka" >
-            <b> Here.</b>
-          </a>
-        </p>
-
-        <div className=" box links items-start">
-          {/* <a href="/thoughts"
-            rel="noopener noreferrer"
-            className={styles.card}>
-            <h2>thoughts &rarr;</h2>
-          </a> */}
-
-          <Link href="/thoughts">
-            <a rel="noopener noreferrer" className='urls'>
-              <h2>thoughts &rarr;</h2>
+              className="urls"
+            >
+              {" "}
+              <b>@Developer DAO</b>
             </a>
-          </Link>
+            .
+            <br />
+            I'm also quite curious about Zero Knowledge Proofs & AI. I talk
+            about them here:
+            <a href="https://www.youtube.com/@geniusyinka">
+              <b> Here.</b>
+            </a>
+          </p>
 
-          {/* <a href="https://youtube.com/wilsonoshidipe"
+          <div className=" box links items-start">
+            <Link href="/thoughts">
+              <a rel="noopener noreferrer" className="urls">
+                <h2>thoughts &rarr;</h2>
+              </a>
+            </Link>
+
+            {/* <a href="https://youtube.com/wilsonoshidipe"
             target="_blank" rel="noopener noreferrer"
             className={styles.card}>
             <h2>youtube &rarr;</h2>
           </a> */}
-          <a
-            href="https://youtube.com/wilsonoshidipe"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='urls' 
+            <a
+              href="https://youtube.com/wilsonoshidipe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="urls"
             >
-            <h2>youtube &rarr;</h2>
-          </a>
+              <h2>youtube &rarr;</h2>
+            </a>
 
-          <a href="https://github.com/yunggenius/yinka.lol" className='urls' >
-            <h2>github &rarr;</h2>
-          </a>
-        </div>
-      </main>
-            </div>
+            <a href="https://github.com/yunggenius/yinka.lol" className="urls">
+              <h2>github &rarr;</h2>
+            </a>
+          </div>
+        </main>
+      </div>
 
       <footer className={styles.footer}>Powered by shitpostin</footer>
     </div>
