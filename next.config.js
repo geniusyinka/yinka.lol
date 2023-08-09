@@ -14,6 +14,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: '/blog',
+        destination: 'https://www.yinka.lol/thoughts',
+        permanent: true,
+      },
+      {
         source: '/send-ether-from-smart-contract',
         destination: 'https://yunggenius.hashnode.dev/how-to-send-ether-from-one-smart-contract-to-another-contract',
         permanent: true,
