@@ -14,6 +14,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: '/resume',
+        destination: 'https://drive.google.com/file/d/1xWtD9bbFHIK3YZhGJnCbi2mw7OPCUPqT/view?usp=sharing',
+        permanent: true
+      },
+      {
         source: '/blog',
         destination: 'https://www.yinka.lol/thoughts',
         permanent: true,
