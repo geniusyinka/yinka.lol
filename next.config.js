@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         source: '/cv',
-        destination: ' https://drive.google.com/file/d/1mIcIYS1CHPyNMp0VErvupvRqtSQgEqou/view?usp=drive_link',
+        destination: 'https://drive.google.com/file/d/1mIcIYS1CHPyNMp0VErvupvRqtSQgEqou/view?usp=drive_link',
         permanent: true
       },
       {
