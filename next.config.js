@@ -53,6 +53,11 @@ module.exports = {
         destination: 'https://yunggenius.hashnode.dev/setting-up-spruceid-ssx-integration-into-an-existing-dapp',
         permanent: true,
       },
+      {
+        source: '/huggingface-react-native',
+        destination: 'https://yunggenius.hashnode.dev/build-react-native-apps-with-hugging-face-ai-models',
+        permanent: true,
+      }
     ]
   },
 }
