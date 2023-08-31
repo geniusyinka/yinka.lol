@@ -2,6 +2,10 @@
   "tech": {
     "links": [
       {
+        "title": "How To Build React Native Apps with Hugging Face AI Models",
+        "url": "https://yunggenius.hashnode.dev/build-react-native-apps-with-hugging-face-ai-models"
+      },
+      {
         "title": "How To Deploy An Existing Smart Contract To Scroll.io Testnet",
         "url": "https://yunggenius.hashnode.dev/how-to-deploy-an-existing-smart-contract-to-scrollio-testnet"
       },
