@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         source: '/blog',
-        destination: 'https://www.yinka.lol/thoughts',
+        destination: 'https://yunggenius.hashnode.dev',
         permanent: true,
       },
       {
