@@ -57,12 +57,6 @@ const Home: NextPage = () => {
                 <h2>thoughts &rarr;</h2>
               </a>
             </Link>
-
-            {/* <a href="https://youtube.com/wilsonoshidipe"
-            target="_blank" rel="noopener noreferrer"
-            className={styles.card}>
-            <h2>youtube &rarr;</h2>
-          </a> */}
             <a
               href="https://youtube.com/wilsonoshidipe"
               target="_blank"
@@ -72,14 +66,22 @@ const Home: NextPage = () => {
               <h2>youtube &rarr;</h2>
             </a>
 
-            <a href="https://github.com/yunggenius/yinka.lol" className="urls">
+            <a href="https://github.com/yunggenius" className="urls">
               <h2>github &rarr;</h2>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wilson-oshidipe-28ba7a66/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="urls"
+            >
+              <h2>linkedin &rarr;</h2>
             </a>
           </div>
         </main>
       </div>
 
-      <footer className={styles.footer}>Powered by shitpostin</footer>
+      <footer className={styles.footer}>Powered by ☕️ </footer>
     </div>
   );
 };
