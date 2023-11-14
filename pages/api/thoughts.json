@@ -2,6 +2,10 @@
   "tech": {
     "links": [
       {
+        "title": "How To Build a Subscription Service In Solidity",
+        "url": "https://yunggenius.hashnode.dev/building-a-subscription-service-in-solidity"
+      },
+      {
         "title": "How To Build React Native Apps with Hugging Face AI Models",
         "url": "https://yunggenius.hashnode.dev/build-react-native-apps-with-hugging-face-ai-models"
       },

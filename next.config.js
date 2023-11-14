@@ -57,6 +57,11 @@ module.exports = {
         source: '/huggingface-react-native',
         destination: 'https://yunggenius.hashnode.dev/build-react-native-apps-with-hugging-face-ai-models',
         permanent: true,
+      },
+      {
+        source: '/solidity-subscription-service',
+        destination: 'https://yunggenius.hashnode.dev/building-a-subscription-service-in-solidity',
+        permanent: true, 
       }
     ]
   },
