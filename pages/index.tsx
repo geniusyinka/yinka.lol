@@ -58,7 +58,7 @@ const Home: NextPage = () => {
               </a>
             </Link>
             <a
-              href="https://youtube.com/wilsonoshidipe"
+              href="https://youtube.com/@geniusyinka"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
