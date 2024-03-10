@@ -24,12 +24,12 @@ const Home: NextPage = () => {
             I'm a Developer Relations Engineer. <br />
             Currently building the dev community
             <a
-              href="https://twitter.com/thedapplist"
+              href="https://twitter.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
             >
-              <b> @thedapplist,</b>
+              <b> @</b>
             </a>
             <br />
             Dev Rel work
@@ -39,15 +39,14 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
               className="urls"
             >
-              {" "}
               <b>@Developer DAO</b>
             </a>
             .
             <br />
-            I'm also quite curious about Zero Knowledge Proofs & AI. I talk
+            I'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & AI. I talk
             about them here:
             <a href="https://www.youtube.com/@geniusyinka">
-              <b> Here.</b>
+              <b> Here </b>
             </a>
           </p>
 
