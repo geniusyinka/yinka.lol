@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             </a>
             .
             <br />
-            I'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & AI. I talk
+            I'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & Artificial Intelligence. I talk
             about them here:
             <a href="https://www.youtube.com/@geniusyinka">
               <b> Here </b>
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
               <h2>youtube &rarr;</h2>
             </a>
 
-            <a href="https://github.com/yunggenius" className="urls">
+            <a href="https://github.com/geniusyinka" className="urls">
               <h2>github &rarr;</h2>
             </a>
             <a
