@@ -22,17 +22,17 @@ const Home: NextPage = () => {
           <br />
           <p>
             I'm a Developer Relations Engineer. <br />
-            Currently building the dev community
+            currently dev advocate
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/fleekxyz"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
             >
-              <b> @</b>
+              <b> @fleekHQ</b>
             </a>
             <br />
-            Dev Rel work
+            devrel stuff
             <a
               href="https://twitter.com/developer_DAO"
               target="_blank"
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             .
             <br />
             I'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & Artificial Intelligence. I talk
-            about them here:
+            about them
             <a href="https://www.youtube.com/@geniusyinka">
               <b> Here </b>
             </a>
