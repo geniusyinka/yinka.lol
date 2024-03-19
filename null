@@ -1,0 +1,11 @@
+import { FleekConfig } from '@fleekxyz/cli';
+
+export default {
+  "sites": [
+    {
+      "slug": "prehistoric-napkin-whining",
+      "distDir": "build",
+      "buildCommand": "npm run build"
+    }
+  ]
+} satisfies FleekConfig;
