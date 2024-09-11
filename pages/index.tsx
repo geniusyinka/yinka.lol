@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             I'm a Developer Relations Engineer. <br />
             currently dev advocate
             <a
-              href="https://twitter.com/fleekxyz"
+              href="https://twitter.com/fleek"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
