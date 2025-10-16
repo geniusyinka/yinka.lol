@@ -1,3 +1,4 @@
+import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -16,20 +17,19 @@ const Home: NextPage = () => {
 
       <div className="links inline">
         <main className={styles.main}>
-          <h1 className=" text-5xl">Hello, I'm Yinka</h1>
+          <h1 className=" text-5xl">Hi, I'm Yinka</h1>
           <br />
-          <p>I enjoy building tools, and simplifying technical materials. </p>
+          <p>i enjoy building developer tooling, simplifying technical materials, writing docs, and educating developers. </p>
           <br />
           <p>
-            I'm a Developer Relations Engineer. <br />
-            currently dev advocate
+            currently Developer Relations Engineer, Content Manager
             <a
-              href="https://twitter.com/fleek"
+              href="https://twitter.com/nillionnetwork"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
             >
-              <b> @Fleek</b>
+              <b> @nillionnetwork</b>
             </a>
             <br />
             devrel stuff
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             </a>
             .
             <br />
-            I'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & Artificial Intelligence. I talk
+            i'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & Artificial Intelligence. <br/> I talk
             about them
             <a href="https://www.youtube.com/@geniusyinka">
               <b> Here </b>
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
               <h2>github &rarr;</h2>
             </a>
             <a
-              href="https://www.linkedin.com/in/wilson-oshidipe-28ba7a66/"
+              href="https://www.linkedin.com/in/olayinka-oshidipe-28ba7a66/"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         </main>
       </div>
 
-      <footer className={styles.footer}>Powered by ⚡️ & ☕️ </footer>
+      <footer className={styles.footer}>Powered by ☕️ </footer>
     </div>
   );
 };
