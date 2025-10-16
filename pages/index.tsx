@@ -1,3 +1,4 @@
+import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -18,10 +19,9 @@ const Home: NextPage = () => {
         <main className={styles.main}>
           <h1 className=" text-5xl">Hi, I'm Yinka</h1>
           <br />
-          <p>I enjoy building developer tooling, simplifying technical materials, writing docs, and educating developers. </p>
+          <p>i enjoy building developer tooling, simplifying technical materials, writing docs, and educating developers. </p>
           <br />
           <p>
-            I'm a Developer Relations Engineer. <br />
             currently Developer Relations Engineer, Content Manager
             <a
               href="https://twitter.com/nillionnetwork"
@@ -39,11 +39,11 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
               className="urls"
             >
-              <b>@Developer DAO</b>
+              <b> @Developer DAO</b>
             </a>
             .
             <br />
-            I'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & Artificial Intelligence. I talk
+            i'm also quite curious about Zero Knowledge Proofs, Account Abstraction  & Artificial Intelligence. <br/> I talk
             about them
             <a href="https://www.youtube.com/@geniusyinka">
               <b> Here </b>
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
               <h2>github &rarr;</h2>
             </a>
             <a
-              href="https://www.linkedin.com/in/wilson-oshidipe-28ba7a66/"
+              href="https://www.linkedin.com/in/olayinka-oshidipe-28ba7a66/"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
