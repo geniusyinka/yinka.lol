@@ -18,18 +18,18 @@ const Home: NextPage = () => {
         <main className={styles.main}>
           <h1 className=" text-5xl">Hi, I'm Yinka</h1>
           <br />
-          <p>I enjoy building tools, and simplifying technical materials. </p>
+          <p>I enjoy building developer tooling, simplifying technical materials, writing docs, and educating developers. </p>
           <br />
           <p>
             I'm a Developer Relations Engineer. <br />
-            currently dev advocate
+            currently Developer Relations Engineer, Content Manager
             <a
-              href="https://twitter.com/fleek"
+              href="https://twitter.com/nillionnetwork"
               target="_blank"
               rel="noopener noreferrer"
               className="urls"
             >
-              <b> @fleekHQ</b>
+              <b> @nillionnetwork</b>
             </a>
             <br />
             devrel stuff
