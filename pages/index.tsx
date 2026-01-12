@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             </div>
             <div>
               <a
-                href="https://twitter.com/gaboroyinka"
+                href="https://twitter.com/geniusyinka"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"
