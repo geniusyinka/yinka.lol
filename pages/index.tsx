@@ -24,7 +24,7 @@ const Home: NextPage = () => {
               writing docs, and educating developers.
             </p>
             <p>
-              currently at{" "}
+              previously{" "}
               <a
                 href="https://twitter.com/nillion"
                 target="_blank"
@@ -33,7 +33,34 @@ const Home: NextPage = () => {
               >
                 Nillion
               </a>
-              . previously{" "}
+              ,{" "}
+              <a
+                href="https://twitter.com/fleek"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link font-medium text-white"
+              >
+                Fleek
+              </a>
+              ,{" "}
+              <a
+                href="https://twitter.com/RallyProtocol"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link font-medium text-white"
+              >
+                Rally Protocol
+              </a>
+              ,{" "}
+              <a
+                href="https://twitter.com/tdldoteco"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link font-medium text-white"
+              >
+                TheDappList
+              </a>
+              ,{" "}
               <a
                 href="https://twitter.com/developer_DAO"
                 target="_blank"
