@@ -10,6 +10,11 @@ module.exports = {
   async redirects() {
     return [
       {
+        source: '/ea',
+        destination: 'https://field-toy-afe.notion.site/yinka-s-creator-operations-EA-385d0a753e7680789dddd3040f9f2b8d?pvs=74',
+        permanent: true,
+      },
+      {
         source: '/zk',
         destination: 'https://www.youtube.com/@geniusyinka',
         permanent: true,
