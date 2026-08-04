@@ -8,20 +8,20 @@ const Home: NextPage = () => {
       <Head>
         <title>yinka</title>
         <meta name="description" content="developer relations engineer" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
 
       <div className="container min-h-screen flex flex-col justify-center relative">
         <main className="animate-fade-in">
           <header className="mb-12">
             <h1 className="text-2xl font-medium mb-2">Yinka Oshidipe</h1>
-            <p className="text-gray-400">developer relations engineer</p>
+            <p className="text-gray-400">developer relations engineer, educator</p>
           </header>
 
           <section className="mb-12 space-y-4 text-gray-400">
             <p>
-              building developer tooling, simplifying technical materials,
-              writing docs, and educating developers.
+              i'm an engineer and educator. i enjoy building developer tooling, simplifying technical materials,
+              writing docs, and educating developers. i've been doing this for well over 4 years, and currently spend a lot of my time obessing, tinkering, and writing about local AI.
             </p>
             <p>
               previously{" "}
@@ -72,8 +72,30 @@ const Home: NextPage = () => {
               .
             </p>
             <p>
-              curious about zero knowledge proofs, account abstraction & AI.
+              focused on privacy & artificial intelligence.
             </p>
+            <p>i make tech videos on
+              <a
+                href="https://youtube.com/@geniusyinka"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link font-medium text-white"
+              > youtube
+              </a>, i yap on 
+               <a
+                href="https://twitter.com/geniusyinka"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link font-medium text-white"
+              > twitter
+              </a>, and push code on                             <a
+                href="https://github.com/geniusyinka"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link font-medium text-white"
+              >
+                github
+              </a></p>
           </section>
 
           <nav className="space-y-3">
@@ -88,39 +110,6 @@ const Home: NextPage = () => {
                 <a className="link">links</a>
               </Link>
               <span className="text-gray-400 ml-2">— curated resources</span>
-            </div>
-            <div>
-              <a
-                href="https://youtube.com/@geniusyinka"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link"
-              >
-                youtube
-              </a>
-              <span className="text-gray-400 ml-2">— video content</span>
-            </div>
-            <div>
-              <a
-                href="https://github.com/geniusyinka"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link"
-              >
-                github
-              </a>
-              <span className="text-gray-400 ml-2">— open source</span>
-            </div>
-            <div>
-              <a
-                href="https://twitter.com/geniusyinka"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link"
-              >
-                twitter
-              </a>
-              <span className="text-gray-400 ml-2">— updates</span>
             </div>
           </nav>
         </main>
