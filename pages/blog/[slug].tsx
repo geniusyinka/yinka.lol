@@ -22,7 +22,7 @@ const BlogPost: NextPage<Props> = ({ post }) => {
       <Head>
         <title>{post.title} — yinka</title>
         <meta name="description" content={post.description} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
 
       <div className="container min-h-screen py-24 mt-16">

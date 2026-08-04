@@ -9,7 +9,7 @@ const Thoughts: NextPage = () => {
       <Head>
         <title>links — yinka</title>
         <meta name="description" content="curated resources and links" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
 
       <div className="container min-h-screen py-24 mt-16">

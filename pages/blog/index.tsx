@@ -95,7 +95,7 @@ const Blog: NextPage<Props> = ({ localPosts }) => {
       <Head>
         <title>blog — yinka</title>
         <meta name="description" content="thoughts on tech and development" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
 
       <div className="container min-h-screen py-24 mt-16">

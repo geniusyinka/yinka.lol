@@ -7,16 +7,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        serif: ['Newsreader', 'Georgia', 'serif'],
         mono: ['JetBrains Mono', 'SF Mono', 'Fira Code', 'monospace'],
       },
       colors: {
-        black: '#000000',
+        black: '#1c1c1c',
         white: '#ffffff',
         gray: {
           100: '#f5f5f5',
           200: '#e5e5e5',
           300: '#d4d4d4',
-          400: '#a3a3a3',
+          400: '#d6d6d6',
           500: '#737373',
           600: '#525252',
           700: '#404040',
