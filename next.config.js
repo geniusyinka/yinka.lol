@@ -21,8 +21,8 @@ module.exports = {
       },
       {
         source: '/resume',
-        destination: 'https://drive.google.com/file/d/1xWtD9bbFHIK3YZhGJnCbi2mw7OPCUPqT/view?usp=sharing',
-        permanent: true
+        destination: '/resume.pdf',
+        permanent: false
       },
       {
         source: '/cv',
