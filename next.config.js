@@ -22,11 +22,11 @@ module.exports = {
       {
         source: '/resume',
         destination: '/resume.pdf',
-        permanent: false
+        permanent: true
       },
       {
         source: '/cv',
-        destination: 'https://drive.google.com/file/d/1ilnDM34Lo49wSx1U8bV2p1aEWvP_0lHf/view',
+        destination: '/resume.pdf',
         permanent: true
       },
       {
