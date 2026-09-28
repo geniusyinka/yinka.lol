@@ -33,10 +33,9 @@ const Casting: NextPage = () => {
                 &larr; back
               </a>
             </Link>
-            <h1 className="text-2xl font-medium mt-8 mb-2">
+            <h1 className="text-2xl font-medium mt-8">
               making a tiny apple-ish commercial.
             </h1>
-            <p className="text-gray-400">looking for two people to be in it.</p>
           </header>
 
           <section className="mb-12 space-y-4 text-gray-400">
