@@ -17,7 +17,7 @@ const Casting: NextPage = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <Head>
-        <title>casting — yinka</title>
+        <title>casting · yinka</title>
         <meta
           name="description"
           content="making a tiny apple-ish commercial. looking for two people to be in it."
@@ -42,7 +42,7 @@ const Casting: NextPage = () => {
           <section className="mb-12 space-y-4 text-gray-400">
             <p>i&apos;m working on a short commercial for a product i&apos;m building.</p>
             <p>
-              looking for two actors — one male, one female. the film is mostly
+              looking for two actors, one male and one female. the film is mostly
               visual: subtle expressions, natural movement, close-ups, and very
               little dialogue.
             </p>
@@ -55,9 +55,22 @@ const Casting: NextPage = () => {
             <div className="space-y-4 text-gray-400">
               <p className="text-white">clean. cinematic. understated.</p>
               <p>
-                think apple launch / product films — polished, intentional, but
+                think apple launch / product films. polished, intentional, but
                 still human.
               </p>
+              <div
+                className="relative w-full overflow-hidden rounded-md"
+                style={{ paddingTop: "56.25%" }}
+              >
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/URwVV5tTJIA"
+                  title="reference film"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
               <div className="space-y-2">
                 {references.map((item) => (
                   <a
@@ -86,15 +99,15 @@ const Casting: NextPage = () => {
               The shoot
             </h2>
             <div className="space-y-4 text-gray-400">
-              <p>roughly 1 hour. mostly:</p>
-              <ul className="space-y-1">
+              <p>it&apos;s mostly:</p>
+              <ul className="space-y-1 list-disc pl-5">
                 {shoot.map((item) => (
-                  <li key={item}>— {item}</li>
+                  <li key={item}>{item}</li>
                 ))}
               </ul>
               <p>
-                you don&apos;t need professional acting experience — being
-                comfortable on camera and able to take direction matters more.
+                professional acting experience helps. being comfortable on
+                camera and able to take direction matters just as much.
               </p>
             </div>
           </section>
@@ -120,7 +133,7 @@ const Casting: NextPage = () => {
                 </a>{" "}
                 and i&apos;ll share more.
               </p>
-              <p className="text-white">— yinka</p>
+              <p className="text-white">yinka</p>
             </div>
           </section>
         </main>
